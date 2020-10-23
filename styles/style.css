@@ -1,0 +1,239 @@
+
+body {
+	background-color: #fff;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	overflow-x: hidden;
+	
+}
+
+header,
+nav,
+footer {
+	display: block;
+}
+img {
+	max-width: 100%;
+}
+h1, h2 {
+	padding: 0;
+}
+
+.header-bg {
+	background-image: url("../images/header1.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+	width: 100%;
+}
+.container {
+	width: 100%;
+	display: flex;
+    justify-content: space-between;
+    
+}
+
+h1 {
+	font-family: Montserrat, sans-serif;
+	font-size: 12vh;
+	font-weight: lighter;
+	color: #333333;
+	padding: 0 0;
+	margin: auto;
+	margin-top: 320px;
+	margin-bottom: 550px;
+	z-index: 1000;
+}
+.side-line {
+	background-color: #808080;
+	width: 50px;
+	height: 100%;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+.header-logo {
+	margin-top: 5px;
+	width: 50px;
+}
+.side-nav {
+	margin-top: auto;
+	margin-bottom: auto;
+	background-color: #808080;
+	width: 50px;
+	height: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+}
+
+.side-nav_img {
+	height: 20px;
+	width: 20px;
+	padding: 3px 5px 8px 5px;
+	background-color: #808080;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.side-nav_img:hover {
+	background-color: #fff;
+}
+
+.section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	height: 100%;
+	margin-left: 50px;
+}
+.features {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.features-image {
+	width: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-left: 10%;
+}
+.features-text {
+	width: 30%;
+	padding-right: 100px;
+	color: #808080;
+	border: 2px solid #808080;
+	border-left: none;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.features-title, .portfolio-title, .team-title {
+	font-family: Montserrat, sans-serif;
+	font-size: 42px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #808080;
+}
+
+.services {
+	background-image: url(../images/header3.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	opacity: 0.8;
+}
+.services_in {
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.services-title {
+	font-family: Montserrat, sans-serif;
+	font-size: 42px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+.services-text {
+	width: 30%;
+	color: #fff;
+}
+.services-boxes {
+	margin-bottom: 100px;
+	margin-top: 100px;
+	width: 600px;
+	height: 600px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+ .box1 {
+ 	width: 200px;
+ 	height: 200px;
+ 	border: 2px solid #fff;	
+ }
+  .box2 {
+ 	width: 150px;
+ 	height: 150px;
+ 	border: 2px solid #fff;
+ }
+  .box3 {
+ 	width: 300px;
+ 	height: 150px;
+ 	border: 2px solid #fff;
+ }
+  .box4 {
+ 	width: 250px;
+ 	height: 300px;
+ 	border: 2px solid #fff;
+ }
+  
+
+ .portfolio, .team {
+ 	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+ }
+
+ .team_in {
+ 	width: 100%;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ }
+.team_in {
+	margin-left: 300px;
+	width: 1000px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.team_in-description {
+	flex-basis: 40%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 20px;
+	flex-wrap: nowrap;
+}
+ .team_in-image {
+ 	height: 200px;
+ 	width: 200px;
+ 	background-color: #545454;
+ }
+ .team_in-name {
+ 	font-family: Roboto;
+ 	font-size: 24px;
+ 	text-transform: uppercase;
+ 	color: #545454;
+ 	margin-left: 20px;
+ }
+ .team_in-text {
+ 	font-family: Roboto;
+ 	font-size: 16px;
+ 	color: #545454;
+ 	margin-left: 20px;
+ }
